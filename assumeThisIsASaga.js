@@ -1,5 +1,5 @@
 import { isDirectEnroll } from "./isDirectEnroll";
 
-export const wrapper = (product) => {
+export const assumeIamASaga = (product) => {
   return isDirectEnroll(product);
 };
